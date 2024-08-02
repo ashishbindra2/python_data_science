@@ -21,6 +21,8 @@ sdist/
 var/
 Machine Learning A-Z/
 Master the theory, practice, and math behind ML,NLP/
+nlp/
+pdf notes/
 wheels/
 share/python-wheels/
 *.egg-info/
