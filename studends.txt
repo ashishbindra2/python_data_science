@@ -1,0 +1,21 @@
+Name of,Student Marks
+Sunny,100
+Bunny,200
+Chinny,300
+Vinny,200
+Pinny,400
+Zinny,300
+Kinny,500
+Minny,600
+Dinny,400
+Ginny,700
+Sachin,300
+Dravid,900
+Kohli,1000
+Rahul,800
+Ameer,600
+Sharukh,500
+Salman,700
+Ranveer,600
+Katrtina,300
+Kareena,400
