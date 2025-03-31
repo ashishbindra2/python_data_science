@@ -1,0 +1,6 @@
+Step 2: Install Tesseract
+1. Run the downloaded installer and follow the on-screen instructions to complete the installation
+
+2. By default, Tesseract will be installed in *c:\Program Files\Tesseract-ocr’. Make note of this
+
+path for the next steps.

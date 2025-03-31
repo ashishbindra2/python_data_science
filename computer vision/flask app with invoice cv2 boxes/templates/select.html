@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV2 bonding boxes</title>
+    <style>
+        body{
+            width: 100%;
+            /* height: 100vh; */
+            
+            /* Setup */
+            /* position: relative; */
+            outline: dashed 1px black;
+        
+        }
+        form{
+            /* margin-top: 30px; */
+            /* top: 50%;
+            left: 50%; */
+            
+            /* Center vertically and horizontally */
+            /* position: absolute; */
+            /* transform: translate(-50%, -50%); */
+        }
+.mar{
+    margin-left:300px ;
+    padding:30px;
+}label{
+    display: block;
+}
+    </style>
+</head>
+<body>
+    <form method="post">
+        <div>
+            <label style="margin-left: 300px;">Image Name: {{filename}}</label>
+            <img src="data:image/png;base64,{{encoded_image}}"
+                height="500px"
+                 alt="Invoice Image"
+                 title="Invoice image whhich is uploaded by you" />
+        </div>
+        <div class="mar">
+            <h3>Please select types for boxes:</h3>
+            <label for="text">Choose a Type:</label>
+            <select name="type" id="text">
+                <option value="page">PAGE</option>
+                <option value="block">BLOCK</option>
+                <option value="para">PARAGRAPH</option>
+                <option value="line">LINE</option>
+                <option value="word">WORD</option>
+            </select>
+            <input type="submit" name="submit" value="DETACT">
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+Q1) zip vs enumerate
+zip and enumerate are both built-in functions in Python that serve different purposes.
+
+zip function:
+
+zip takes two or more iterables as input and returns an iterator that generates tuples containing elements from the input iterables, paired together.
+
+Example:
+
+python
+Copy code
+list1 = [1, 2, 3]
+list2 = ['a', 'b', 'c']
+
+zipped = zip(list1, list2)
+result = list(zipped)
+
+print(result)  # Output: [(1, 'a'), (2, 'b'), (3, 'c')]
+zip stops creating tuples when the shortest input iterable is exhausted.
+
+enumerate function:
+
+enumerate is used to iterate over a sequence (such as a list) while keeping track of the index of the current item.
+
+Example:
+
+python
+Copy code
+my_list = ['apple', 'banana', 'orange']
+
+for index, value in enumerate(my_list):
+    print(index, value)
+
+# Output:
+# 0 apple
+# 1 banana
+# 2 orange
+You can also specify a start value for the index using the start parameter of enumerate.
+
+In summary:
+
+Use zip when you want to combine elements from two or more iterables into tuples.
+Use enumerate when you want to iterate over elements of a sequence while keeping track of their indices.
+
+
+# create a list of names 
+names = ['sravan', 'bobby', 'ojaswi', 'rohith', 'gnanesh'] 
+  
+# create a list of subjects 
+subjects = ['java', 'python', 'R', 'cpp', 'bigdata'] 
+  
+# create a list of marks 
+marks = [78, 100, 97, 89, 80] 
+  
+# use enumerate() and zip() function 
+# to iterate the lists 
+for i, (names, subjects, marks) in enumerate(zip(names, subjects, marks)): 
+    print(i, names, subjects, marks) 

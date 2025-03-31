@@ -1,0 +1,2 @@
+https://github.com/pranaymethuku/fakenewschallenge
+https://github.com/lazyprogrammer/machine_learning_examples/blob/master/linear_regression_class/gd.py
